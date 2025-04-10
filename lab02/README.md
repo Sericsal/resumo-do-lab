@@ -80,7 +80,8 @@ Foi comentado sobre o uso da **calculadora do Azure**, que permite prever os cus
 
 ## 🧠 Conclusão
 
-    - Todo cenário de gerenciamento está associado ao modelo de serviço e quanto mais eu estiver envolvido menos a Microsoft estará e vice-versa. IaaS é o modelo que mais demanda do nosso lado, como ajustes, manutenção e configurações e o que dá menos dor de cabeça é o SaaS.
+Todo cenário de gerenciamento está associado ao modelo de serviço e quanto mais eu estiver envolvido menos a Microsoft estará e vice-versa. 
+IaaS é o modelo que mais demanda do nosso lado, como ajustes, manutenção e configurações e o que dá menos dor de cabeça é o SaaS.
 
 ---
 
