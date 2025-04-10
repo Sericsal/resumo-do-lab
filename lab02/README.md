@@ -1,4 +1,4 @@
-# Lab 02 - Serviços em Nuvem e Criação de Recursos no Azure
+# Lab 02 - Configurando uma instância de Banco de Dados na Azure
 
 Neste laboratório, explorei os principais modelos de serviços em nuvem e realizei a criação de máquinas virtuais e bancos de dados no **Microsoft Azure**.
 
