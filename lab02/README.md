@@ -22,7 +22,7 @@ Durante a criação de uma máquina virtual no Azure, a instrutora **Valéria Ba
   - Essa mensagem foi usada apenas para fins didáticos.
 - Em seguida, foi selecionado `Windows Server 2019 DC x64 Gen1 Gen 2`, e o alerta sumiu.
 
-  ![criação da MV](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/Create_VM.png?raw=true)
+![criação da MV](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/Create_VM.png?raw=true)
 
 > **Nota:** Na minha conta do Azure, a opção inicial Gen1 selecionada pela Valéria não estava mais disponível.
 
@@ -34,7 +34,7 @@ Outros pontos abordados:
 - É necessário configurar:
   - Redes virtuais e endereçamento IP.
   - Se a MV estará ou não exposta à internet.
-- Na aba de gerenciamento:
+- Na aba de gerenciamento podemos configurar:
   - Ativação de proteção.
   - Opções de conexão.
   - Desligamento automático.
@@ -48,16 +48,27 @@ Outros pontos abordados:
 
 Também realizei a criação de um banco de dados SQL no Azure:
 
+![criação do BD SQL](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/SQL_DB.png?raw=true)
+
 1. Foi definido um **nome aleatório** para o banco de dados.
 2. Foi necessário **criar um servidor**, pois ainda não existia.
+
+![criação do servidor e método de autenticação](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/SQL_authentication.png?raw=true)
+  
 3. Durante a criação do servidor:
    - Foi escolhida a autenticação via **Microsoft Entra**.
    - Foi solicitado o modelo de **redundância**, ligado ao **SLA (acordo de nível de serviço)**.
-   - Notei que a opção de “Redundância de armazenamento de backup” **não estava visível na minha conta**, diferente do que a instrutora demonstrou.
 
-**Imagens ilustrativas serão inseridas aqui.**
+![autenticação via MS Entra](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/SQL_Entra.png?raw=true)
 
-Com base nas configurações feitas, o Azure já apresentou uma **estimativa de custo mensal** do SQL Database.
+
+> **Nota:** Notei que a opção de “Redundância de armazenamento de backup” **não estava visível na minha conta**, diferente do que a Valeria demonstrou.
+
+
+
+4. Com base nas configurações feitas, o Azure já apresentou uma **estimativa de custo mensal** do SQL Database.
+
+![custo_BD SQL](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/SQL_custo_destaque.png?raw=true)
 
 ---
 
@@ -69,11 +80,7 @@ Foi comentado sobre o uso da **calculadora do Azure**, que permite prever os cus
 
 ## 🧠 Conclusão
 
-- O nível de responsabilidade na nuvem está diretamente ligado ao modelo de serviço:
-  - **IaaS** → maior responsabilidade do usuário.
-  - **PaaS** → responsabilidades divididas.
-  - **SaaS** → menor esforço do usuário.
-- Quanto mais controle eu tenho, **mais trabalho técnico eu preciso realizar** — e vice-versa.
+    - Todo cenário de gerenciamento está associado ao modelo de serviço e quanto mais eu estiver envolvido menos a Microsoft estará e vice-versa. IaaS é o modelo que mais demanda do nosso lado, como ajustes, manutenção e configurações e o que dá menos dor de cabeça é o SaaS.
 
 ---
 
