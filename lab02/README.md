@@ -22,11 +22,9 @@ Durante a criação de uma máquina virtual no Azure, a instrutora **Valéria Ba
   - Essa mensagem foi usada apenas para fins didáticos.
 - Em seguida, foi selecionado `Windows Server 2019 DC x64 Gen1 Gen 2`, e o alerta sumiu.
 
-  ![criação da MV] (https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/Create_VM.png?raw=true)
+  ![criação da MV](https://github.com/Sericsal/resumo-do-lab/blob/XP_Inc_Cloud_com_IA/images/Create_VM.png?raw=true)
 
-> **Nota:** Na minha conta do Azure, a opção inicial não estava mais disponível.
-
-**Imagem ilustrativa será inserida aqui.**
+> **Nota:** Na minha conta do Azure, a opção inicial Gen1 selecionada pela Valéria não estava mais disponível.
 
 Outros pontos abordados:
 
